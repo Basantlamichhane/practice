@@ -1,12 +1,13 @@
 import Loginform from "./components/Loginform/Loginform";
-
-
+import Signup from "./components/Signup/Signup"; 
 function App() {
   return (
     <div>
-      <Loginform/>
-    
+      {/* <Loginform/> */}
+      <Signup/>
+      
     </div>
+    
   );
 }
 
